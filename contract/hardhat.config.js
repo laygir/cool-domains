@@ -24,7 +24,6 @@ module.exports = {
   networks: {
     mumbai: {
       url: `${process.env.ALCHEMY_MUMBAI_API_URL}${process.env.ALCHEMY_MUMBAI_API_KEY}`,
-      // url: "https://polygon-mumbai.g.alchemy.com/v2/TeNOZN8zN_nCMsTtqB6r22SS1SHT8iaE",
       accounts: [`${process.env.WALLET_PRIVATE_KEY_ADDR1}`],
     },
   },
